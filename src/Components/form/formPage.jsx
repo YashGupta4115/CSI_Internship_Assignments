@@ -49,8 +49,8 @@ const FormAndFormValidation = () => {
                 email: refss.email.current?.value || '',
                 password: refss.password.current?.value || '',
                 phNumber: refss.phNumber.current?.value || '',
-                country: refss.country.current?.innerText || '',  // Update: Use innerText for dropdown
-                city: refss.city.current?.innerText || '',  // Update: Use innerText for dropdown
+                country: refss.country.current?.innerText || '',  // Update: Using innerText for dropdown
+                city: refss.city.current?.innerText || '',  // Update: Using innerText for dropdown
                 panNumber: refss.panNumber.current?.value || '',
                 aadharNumber: refss.aadharNumber.current?.value || '',
             });

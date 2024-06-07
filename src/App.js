@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import FormAndFormValidation from '../src/Components/form/formPage.jsx';
+import DropDown from '../src/Components/dropDown/dropDown.component.jsx';
+import LandingPage from './Components/landingPage/landingPage.component.jsx';
+import Test from './Components/form/test.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <Routes>
+            <Route path='/' element={<FormAndFormValidation />} />
+            <Route path='/landingPage' element={<LandingPage />}></Route>
+            <Route path='/test' element={<Test />} />
+        </Routes>
+    )
 }
 
 export default App;

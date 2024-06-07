@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.DropDown-container {
+    position: relative;
+    display: inline;
+}
+
+.dropDown {
+    position: relative;
+}
+
+.dropDownButton {
+    height: 2rem;
+    width: 10rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.dropDown-content {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(247, 248, 250);
+}
+
+.dropDown-item {
+    padding: 5px;
+    height: 1rem;
+    width: 9.4rem;
+    cursor: pointer;
+}
+
+.dropDown-item:hover {
+    background-color: rgb(135, 137, 138);
+}

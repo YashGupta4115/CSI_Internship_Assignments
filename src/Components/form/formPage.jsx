@@ -180,7 +180,7 @@ const FormAndFormValidation = () => {
         <div className="formSection">
             <div className="welcome-container">
                 <span className="welcome-msg1">WELCOME!</span>
-                <span className="welcome-msg2">Let's Get You In</span>
+                <span className="welcome-msg2">Lets Get You In</span>
             </div>
             <fieldset>
                 <legend>Sign Up Form {`(`} {<span style={{ color: 'red' }}>*</span>}{` marked is required to fill)`}</legend>

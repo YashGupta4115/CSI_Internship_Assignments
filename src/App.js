@@ -9,7 +9,6 @@ const App = () => {
         <Routes>
             <Route path='/' element={<FormAndFormValidation />} />
             <Route path='/landingPage' element={<LandingPage />}></Route>
-            <Route path='/test' element={<Test />} />
         </Routes>
     )
 }
